@@ -18,6 +18,8 @@ Desde mi rol como **Ingeniera de la Salud**, MED-RAM propone una infraestructura
 
 MED-RAM centra su alcance en el **arco mediterráneo**: España, Francia, Italia, Grecia, Malta, Chipre, Eslovenia y Croacia. Esta región, pese a su heterogeneidad sanitaria, comparte desafíos climáticos y biológicos críticos que el EEDS permite armonizar para generar análisis epidemiológicos sin comprometer la privacidad ni la soberanía del dato en Europa.
 
+![Logo](entrega_4_MED_RAM_cambio_tonos.png)
+
 ---
 
 ## Índice
