@@ -68,7 +68,44 @@ E) Mecanismos de Auditoría y Confianza
 F) Consentimiento e Información al Paciente
 
 ¿Qué información darías a pacientes de forma transparente?
+
 Redacta un breve párrafo explicativo para los/as pacientes.
+
+**Objetivo:** Demostrar la comprensión de los derechos en el uso primario y las restricciones técnicas en el uso secundario dentro del marco del EEDS.
+------------------------------------
+
+### A) Derechos del Paciente en MED-RAM
+Los 6 derechos principales son: **acceso, rectificación, portabilidad, restricción, oposición** y el derecho a **no ser objeto de decisiones automatizadas**.
+
+* **Aplicación en el proyecto:** MED-RAM no centralizaría los datos; utiliza el OADS como punto de acceso federado. El OADS habilita un Entorno Seguro de Procesamiento (ESP) donde se ejecuta nuestra analítica avanzada bajo el cumplimiento del ENS por lo tanto relacionado con MED-RAM, los pacientes podrán verificar a través de sus carpetas de salud nacionales qué datos de sus antibiogramas han sido aportados al nodo nacional, se respeta técnicamente el derecho de **restricción**: si un paciente limita el acceso a ciertos datos microbiológicos, estos serán filtrados  y no entrarán en la creación de los modelos matemáticos.
+
+------------------------------------------- ME QUEDO AQUÍ
+
+### B) Fines Permitidos vs. Prohibidos (Art. 53 y 54)
+* [cite_start]**Fines Permitidos (Uso Secundario):** El proyecto se fundamenta legalmente en la **investigación científica e innovación** (Art. 53.1.e/f) [cite: 64, 66] [cite_start]y en la protección ante **amenazas transfronterizas graves para la salud** (Art. 53.1.a y j)[cite: 65, 83].
+* **Usos Prohibidos:** El sistema MED-RAM prohíbe explícitamente el uso de modelos para la **exclusión de seguros**, el incremento de primas, la publicidad comercial o cualquier **decisión perjudicial individual** basada en el perfil de resistencia del paciente (Art. 54.1.a y b).
+
+### C) Principios de Protección de Datos (RGPD)
+Aplicamos los 6 principios: Licitud, Limitación de la finalidad, Minimización, Exactitud, Limitación del plazo e Integridad/Confidencialidad.
+
+* [cite_start]**Minimización:** Solo solicitamos variables estrictamente necesarias (identificador seudonimizado, código ICD-10 y perfil de resistencia R/S/I), eliminando cualquier dato identificativo directo[cite: 45, 46].
+* **Integridad y Confidencialidad:** El procesamiento se realiza exclusivamente en **Entornos Seguros de Procesamiento (ESP)** certificados bajo el **Esquema Nacional de Seguridad (ENS)**, garantizando que los datos nunca abandonen el control del OAD.
+
+### D) Derecho de Autoexclusión (Opt-out)
+[cite_start]Respetamos el derecho de **opt-out** de forma reversible[cite: 29]. [cite_start]Si un paciente solicita que sus datos no se compartan transfronterizamente, el sistema lo excluirá de la recogida para uso secundario[cite: 26, 27].
+* [cite_start]**Excepción:** Solo se anulará la restricción en situaciones de **interés vital** (riesgo de muerte o pérdida de conciencia inminente) o alertas de salud pública críticas[cite: 19].
+
+### E) Mecanismos de Auditoría y Confianza
+[cite_start]Implementamos **registros de acceso (logs)** inmutables para cada consulta del algoritmo[cite: 34]. Estos registros permiten la trazabilidad total:
+* [cite_start]**Supervisión:** El acceso es controlado por el **OAD (Organismo de Acceso a Datos de Salud)** [cite: 52] [cite_start]y auditado por las autoridades de protección de datos para detectar accesos no lícitos o por "curiosidad"[cite: 21].
+
+### F) Información al Paciente (Transparencia)
+La base legal se fundamenta en el **interés público y la investigación científica** (Art. 6 y 9 del RGPD).
+
+**Mensaje para el paciente:**
+> [cite_start]*"Tus datos de salud, junto con información ambiental y veterinaria, nos ayudan a predecir qué antibióticos dejarán de ser eficaces en tu región. En MED-RAM usamos esta información de forma anónima y segura para que los médicos elijan el tratamiento correcto más rápido y proteger a toda la comunidad frente a las superbacterias"*[cite: 70, 71].
+
+
 ---
 
 ## 🛠️ SECCIÓN 3: Tecnología, Estándares y Seguridad
