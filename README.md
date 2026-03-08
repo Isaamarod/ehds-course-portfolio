@@ -1,4 +1,5 @@
-# 🧬 MED-RAM: One Health & AI Surveillance
+# Portfolio Módulo Final · Curso EEDS — CSIC
+# PROYECTO MED-RAM
 
 > **Vigilancia Inteligente y Predicción de Resistencias Antimicrobianas en el Mediterráneo europeo bajo el enfoque One Health**
 
